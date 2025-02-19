@@ -15,7 +15,7 @@ import os
 bot = telebot.TeleBot('7206131737:AAEmHOZePn592Mvk331I8VDD_nG7bj2AOr8')
 
 # @RitikXyz099 GRP # Admin user IDs
-admin_id = ["-1002405877722"]
+admin_id = ["6437994839"]
 
 # @RitikXyz099 GRP # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -461,7 +461,7 @@ def handle_bgmi(message):
             target = command[1]
             port = int(command[2])  # @RitikXyz099 GRP # Convert time to integer
             time = int(command[3])  # @RitikXyz099 GRP # Convert port to integer
-            if time > 240:
+            if time > 120:
                 response = "𝗠𝗮𝗸𝗲 𝘀𝘂𝗿𝗲 𝘆𝗼𝘂 𝗮𝗿𝗲 𝗲𝗻𝘁𝗲𝗿𝗲𝗱 𝟮𝟰𝟬 𝘀𝗲𝗰"
             else:
                 record_command_logs(user_id, '/op', target, port, time)
